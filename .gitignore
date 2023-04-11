@@ -1,3 +1,5 @@
 node_modules
-.env
 .DS_Store
+
+### to pass the cypress test
+# .env

@@ -13,6 +13,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/locations", locationsController);
+app.get("/locations/people", locationsController);
 app.get("/people", peopleController);
 app.get("/plans", plansController);
 app.get("/machines", machinesController);
