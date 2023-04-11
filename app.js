@@ -5,7 +5,6 @@ const machinesController = require("./controllers/machines.controller.js");
 const personsController = require("./controllers/persons.controller.js");
 const plansController = require("./controllers/plans.controller.js");
 const specialEventsController = require("./controllers/special-events.controller.js");
-const specialEvents = require("./controllers/special-events.controller.js");
 
 app.get("/", (req, res) => {
   res.send("Hello, world!");
@@ -19,7 +18,7 @@ app.use("/persons", personsController);
 
 app.use("/plans", plansController);
 
-app.use("/special-events", specialEvents)
+app.use("/special-events", specialEventsController)
 
 
 app.get("*", (req, res) => {
