@@ -13,7 +13,8 @@ const peopleController = require("./controllers/persons.controller.js")
 const plansController = require("./controllers/plans.controller.js")
 
 const specialEventsController = require("./controllers/special-events.controller.js");
-const plans = require("./controllers/plans.controller.js");
+
+const locationPersonsController = require("./controllers/locations.persons.controller.js");
 
 
 // Define the Use ( /bookmarks ) is the base url for the routes.
@@ -29,7 +30,7 @@ app.use("/plans", plansController)
 
 app.use("/special-events", specialEventsController)
 
-app.use("/locations/people", locationPersonsController)
+app.use("/locations/persons", locationPersonsController)
 
 
 // SEPARATION OF CONCERNS --> needed to handle the manipulation of the app
@@ -56,6 +57,10 @@ app.get("/equipment", (req, res) => {
 })
 
 app.get("/special-events", (req, res) => {
+    res.send("");
+})
+
+app.get("/locations/persons", (req, res) => {
     res.send("");
 })
 

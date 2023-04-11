@@ -6,7 +6,7 @@ const locationsPersons = express.Router();
 const locationsPersonsArray = require("../models/location.model.js")
 
 //This will get all the entries from the database
-locations.get("/", (req, res) => {
+locationsPersons.get("/", (req, res) => {
     //* now you must think like an api -- create a more complete version --> what do you get back? : JSON 💡 --> your response should be JSON ... 
     res.json(locationsPersonsArray)
     console.log(locationsArray)
