@@ -91,7 +91,7 @@ describe("Each model has an index route", () => {
   });
 
   it("has an index route for people", async () => {
-    const response = await request(app).get("/persons");
+    const response = await request(app).get("/people");
     expect(response.body).toEqual(data.persons);
   });
 

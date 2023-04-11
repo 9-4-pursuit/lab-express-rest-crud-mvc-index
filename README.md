@@ -208,7 +208,7 @@ Once you've built the route in each controller, you should be able to visit the 
 - http://localhost:3333/locations
 - http://localhost:3333/people
 - http://localhost:3333/plans
-- http://localhost:3333/equipment
+- http://localhost:3333/machines
 - http://localhost:3333/special-events
 
 ### Create a Catch-all/404 Route
