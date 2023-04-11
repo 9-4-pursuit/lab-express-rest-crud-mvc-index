@@ -1,8 +1,8 @@
 const machines = require("express").Router();
 const machinesArray = require("../models/machine.model.js");
 
-machines.get("/machines", (req, res) => {
-  res.send(machinesArray);
+machines.get("/", (req, res) => {
+  res.json(machinesArray);
 })
 
 module.exports = machines;

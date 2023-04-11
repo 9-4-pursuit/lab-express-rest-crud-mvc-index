@@ -2,11 +2,11 @@ const locations = require("express").Router();
 const locationsArray = require("../models/location.model.js");
 const peopleArray = require("../models/person.model.js");
 
-locations.get("/locations", (req, res) => {
-  res.send(locationsArray);
+locations.get("/", (req, res) => {
+  res.json(locationsArray);
 })
 
-locations.get("/locations/people", (req, res) => {
+locations.get("/people", (req, res) => {
   locationsArray.forEach(location => {
     const personByLocation = [];
     for (let i = 0; i < peopleArray.length; i++) {
@@ -16,7 +16,7 @@ locations.get("/locations/people", (req, res) => {
     }
     location.people = personByLocation;
   })
-  res.send(locationsArray);
+  res.json(locationsArray);
 })
 
 module.exports = locations;
