@@ -2,7 +2,7 @@
 
 ## Completion 1 -5
 
-My self-assessed completion score is \_\_\_\_
+My self-assessed completion score i 4
 
 5: I did everything required and attempted at least one bonus
 
@@ -16,7 +16,7 @@ My self-assessed completion score is \_\_\_\_
 
 ## Comfort 1- 5
 
-My self-assessed comfort score is \_\_\_\_
+My self-assessed comfort score is 5
 
 5: This assignment was a breeze! I want more challenges
 
@@ -34,7 +34,8 @@ Please list any wins:
 
 ## Struggles
 
-Please list any specific struggles
+Please list any specific struggles:
+Not having the correct link for speicalevents
 
 ## Other comments
 
