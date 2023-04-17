@@ -1,8 +1,13 @@
 const express = require("express");
 const app = express();
+const locationsData = require("./models/location.model");
 
 app.get("/", (request, response) => {
-    response.send("Hello, worls!");
+    response.send("Hello, world!");
+})
+
+app.get("/locations", (request, response) => {
+    response.json(locationsData)
 })
 
 app.get("*", (request, response) => {

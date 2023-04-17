@@ -22,4 +22,4 @@
     },
   ];
 
-  module.exports = machines.models;
+  module.exports = machine.models;

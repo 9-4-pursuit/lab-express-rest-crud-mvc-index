@@ -13,4 +13,4 @@
     },
   ];
 
-  module.exports = locations.models
+  module.exports = locationsData;

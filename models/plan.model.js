@@ -16,4 +16,4 @@
     },
   ];
 
-  module.exports = plans.model;
+  module.exports = plan.model;

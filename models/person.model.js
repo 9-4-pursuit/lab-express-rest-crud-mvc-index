@@ -19,4 +19,4 @@
     },
   ];
 
-  module.exports = persons.model;
+  module.exports = person.model;
